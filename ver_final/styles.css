@@ -1,0 +1,133 @@
+/* Reset the default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the font and background color for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #383E57;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #161923;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Style the header section */
+header {
+  background-color: #282D3F;
+  padding: 100px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* Style the main content section */
+main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  padding: 50px;
+}
+
+.left-half {
+  flex-basis: 50%;
+  padding-right: 20px;
+  background-color: #5f6b95;
+  transition: all 0.5s ease;
+}
+
+.left-half:hover {
+  background-color: #5f6b95;
+  color: #161923;
+}
+
+.right-half {
+  flex-basis: 50%;
+  padding-left: 20px;
+  background-color: #95895f;
+  transition: all 0.5s ease;
+}
+
+.right-half:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+main h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Style the bibliography section */
+/*ul {
+  list-style-type: none;
+  margin-top: 20px;
+  font-size: 24px;
+} */
+.biblio {
+ list-style-type: none;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+
+li a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+li a:hover {
+  background-color: #5f6b95;
+  color: #000;
+}
+
